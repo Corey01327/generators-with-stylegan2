@@ -150,11 +150,3 @@ If you want to create a graphic, you can obtain images through <a href='http://s
 </p>
 <br/><br/><br/><br/> 
 
-## Small sponsor~
-<p align="center">
-	<img src="https://github.com/a312863063/seeprettyface/blob/master/sponsor.jpg" alt="Sample"  width="324" height="504">
-	<p align="center">
-		<em>A small sponsor if it helps you~</em>
-	</p>
-</p>
-<br/><br/><br/>
