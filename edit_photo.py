@@ -6,22 +6,21 @@ import dnnlib.tflib as tflib
 import os
 
 def read_feature(file_name):
-    file = open(file_name, mode='r')
-    # 使用readlines() 读取所有行的数据，会返回一个列表，列表中存放的数据就是每一行的内容
-    contents = file.readlines()
-    # 准备一个列表，用来存放取出来的数据
-    code = np.zeros((512, ))
-    # for循环遍历列表，去除每一行读取到的内容
-    for i in range(512):
-        name = contents[i]
-        name = name.strip('\n')
-        code[i] = name
-    code = np.float32(code)
-    file.close()
+    with open(file_name, mode='r') as file:
+        # 使用readlines() 读取所有行的数据，会返回一个列表，列表中存放的数据就是每一行的内容
+        contents = file.readlines()
+        # 准备一个列表，用来存放取出来的数据
+        code = np.zeros((512, ))
+        # for循环遍历列表，去除每一行读取到的内容
+        for i in range(512):
+            name = contents[i]
+            name = name.strip('\n')
+            code[i] = name
+        code = np.float32(code)
     return code
 
 def move_latent_and_save(latent_vector, direction_file, coeffs, Gs_network, Gs_syn_kwargs):
-    direction = np.load('latent_directions/' + direction_file)
+    direction = np.load(f'latent_directions/{direction_file}')
     os.makedirs('results/'+direction_file.split('.')[0], exist_ok=True)
     '''latent_vector是人脸潜编码，direction是人脸调整方向，coeffs是变化步幅的向量，generator是生成器'''
     for i, coeff in enumerate(coeffs):

@@ -14,7 +14,7 @@ def text_save(file, data):  # save generate code, which can be modified to gener
         file.write(s)
 
 def generate_images(network_pkl, num, truncation_psi=0.5):
-    print('Loading networks from "%s"...' % network_pkl)
+    print(f'Loading networks from "{network_pkl}"...')
     _G, _D, Gs = pretrained_networks.load_networks(network_pkl)
     noise_vars = [var for name, var in Gs.components.synthesis.vars.items() if name.startswith('noise')]
 
@@ -30,7 +30,7 @@ def generate_images(network_pkl, num, truncation_psi=0.5):
         z = np.random.randn(1, *Gs.input_shape[1:])  # [minibatch, component]
 
         # Save latent
-        txt_filename = 'results/generate_codes/' + str(i).zfill(4) + '.txt'
+        txt_filename = f'results/generate_codes/{str(i).zfill(4)}.txt'
         with open(txt_filename, 'w') as f:
             text_save(f, z)
 
@@ -39,7 +39,9 @@ def generate_images(network_pkl, num, truncation_psi=0.5):
         images = Gs.run(z, None, **Gs_kwargs)  # [minibatch, height, width, channel]
 
         # Save image
-        PIL.Image.fromarray(images[0], 'RGB').save(dnnlib.make_run_dir_path('results/'+str(i)+'.png'))
+        PIL.Image.fromarray(images[0], 'RGB').save(
+            dnnlib.make_run_dir_path(f'results/{str(i)}.png')
+        )
 
 
 def main():
