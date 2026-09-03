@@ -148,9 +148,8 @@ If you want to create a graphic, you can obtain images through <a href='http://s
 ## 21.Adjusting to the white race
 ![Image text](https://github.com/a312863063/generators-with-stylegan2/blob/master/examples/edit_photo/change_race_white.jpg)<br /><br /><br /><br /><br /><br />
 
-# Learn technical principles & Get training set: [goto www.seeprettyface.com](http://www.seeprettyface.com/)
-<p>
-	<img src="https://github.com/a312863063/generators-with-stylegan2/blob/master/examples/virtual-model.gif" alt="Sample"  width="512">
-</p>
+# Learn more & Contact: 
+Blog：[view](http://www.seeprettyface.com/)<br />
+QQ：312863063
 <br/><br/><br/><br/> 
 
