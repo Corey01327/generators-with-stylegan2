@@ -8,8 +8,12 @@
 ## What is the enhancement and value of the new version?
 &emsp;&emsp;The new version based on StyleGAN2 eliminates the occurrence of artifacts and distortion / damage in the picture, making the generation success rate close to 100% (see the randomly generated dataset in README.md), which can be used in mass generation tasks; in addition the quality of the pictures has been further improved, and the clarity has approached the dataset used in official training. <b>I hope that this project will help film, television, advertising, games, and medical & aesthetic workers, and at the same time empower ordinary enthusiasts.</b><br />
 &emsp;&emsp;This project is all free and open source, I hope to help friends in need. The model is for play and research use only, and commercial use is not allowed without authorization. The model's copyright belongs to: [www.seeprettyface.com](https://www.seeprettyface.com). If it is helpful to you, please sponsor at the bottom ~ <br />
-
+<a href="https://www.seeprettyface.com/mp4/welcome_avatar.mp4" target="_blank">
+  <img src="https://github.com/a312863063/generators-with-stylegan2/blob/master/examples/avatar.jpg" alt="video subtitle"/>
+</a><br />
+<div align="center"><a href="https://github.com/a312863063/generators-with-stylegan2/blob/master/examples/welcome_avatar.mp4" target="_blank">download avatar video</a><br /></div>
 <br /><br />
+
 # Effect preview
 
 ## Chinese Internet-celebrity Face Generator
