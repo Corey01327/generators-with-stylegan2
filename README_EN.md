@@ -150,6 +150,7 @@ If you want to create a graphic, you can obtain images through <a href='http://s
 
 # Learn more & Contact: 
 Blog：[view](https://www.seeprettyface.com/)<br />
-QQ：312863063
+QQ：`312863063`<br />
+Email：`a312863063@126.com`
 <br/><br/><br/><br/> 
 
