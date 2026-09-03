@@ -149,7 +149,7 @@ If you want to create a graphic, you can obtain images through <a href='http://s
 ![Image text](https://github.com/a312863063/generators-with-stylegan2/blob/master/examples/edit_photo/change_race_white.jpg)<br /><br /><br /><br /><br /><br />
 
 # Learn more & Contact: 
-Blog：[view](http://www.seeprettyface.com/)<br />
+Blog：[view](https://www.seeprettyface.com/)<br />
 QQ：312863063
 <br/><br/><br/><br/> 
 
