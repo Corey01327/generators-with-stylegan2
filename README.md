@@ -8,8 +8,12 @@
 ## 新版的提升与价值何在？
 &emsp;&emsp;基于StyleGAN2制作的版本消除了图片中水滴斑点和扭曲/损坏现象的出现，使生成的成功率接近100%（可参见下方随机生成的数据集），能被应用于大批量生成任务之中；另外图片的质量进一步提升，清晰度已逼近于官方训练所采用的数据集。<b>我希望，这个项目能为影视、广告、游戏和医美工作者们助力，同时为普通爱好者们赋能。</b><br />
 &emsp;&emsp;此项目已大部分免费开源，希望能帮助到有需要的朋友。模型版权所有为：[www.seeprettyface.com](https://www.seeprettyface.com)，已完全开放给大家，请在合理的范围内使用。若对您有帮助欢迎在底部给予小小的赞助~<br />
-
+<a href="https://www.seeprettyface.com/mp4/welcome_avatar.mp4" target="_blank">
+  <img src="https://github.com/a312863063/generators-with-stylegan2/blob/master/examples/avatar.jpg" alt="视频标题"/>
+</a><br />
+<div align="center"><a href="https://github.com/a312863063/generators-with-stylegan2/blob/master/examples/welcome_avatar.mp4" target="_blank">下载数字人视频</a><br /></div>
 <br /><br />
+
 # 效果预览
 
 ## 网红脸生成器
@@ -149,10 +153,11 @@
 ![Image text](https://github.com/a312863063/generators-with-stylegan2/blob/master/examples/edit_photo/change_race_white.jpg)<br /><br /><br /><br /><br /><br />
 
 
-# 了解技术原理 & 获取训练集：[点此进入](http://www.seeprettyface.com/)
-<p>
-	<img src="https://github.com/a312863063/generators-with-stylegan2/blob/master/examples/virtual-model.gif" alt="Sample"  width="512">
-</p>
+# 欢迎了解更多 & 联系合作：
+个人博客：[查看](http://www.seeprettyface.com/)<br />
+QQ：312863063
+
+
 <br/><br/><br/><br/>
 
 
